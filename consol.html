@@ -1,0 +1,23 @@
+<!-- <script>
+    var arr=[1,2,3,4,5]
+    arr.forEach(function (x,c,a)
+    {
+
+      console.log("hello",a)
+    
+    })
+</script> -->
+<script>
+    var p=new Promise(function(x,y){
+    var a=false;
+    if(a){
+        x("its true");
+    }
+    else{
+      y("it is false");
+        }
+    })
+    console.log(p);
+   p.then(function(val){console.log(val);})
+   p.catch(function(val){console.log(val);})
+</script>

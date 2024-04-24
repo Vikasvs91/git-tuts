@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink Glossy Balloons</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    .balloon {
+      width: 100px;
+      height: 150px;
+      background: radial-gradient(circle, #ff66b2, #ff3399);
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 15px rgba(255, 51, 153, 0.4);
+      margin: 0 20px;
+      animation: test 4s infinite ;
+    }
+
+    .string {
+      width: 3px;
+      height: 100px;
+      background-color: #b30047;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+      border-radius: 0 0 50% 50%;
+      animation: test 4s infinite ;
+    }
+    @keyframes test {
+                0%{
+                    background-color: lightpink;
+                    
+                    transform: rotate(90deg);
+                }
+                25%{
+                    background-color: lightpink;
+                    transform: rotate(180deg);
+                }
+                
+                100%{
+                    background-color:rgb(239, 205, 239);
+                    transform: rotate(360deg);
+                }
+                
+            }
+  </style>
+</head>
+<body>
+
+  <div class="balloon">
+    <div class="string"></div>
+    <div class="string"></div>
+    <div class="string"></div>
+  </div>
+
+  <div class="balloon">
+    <div class="string"></div>
+  </div>
+
+  <div class="balloon">
+    <div class="string"></div>
+  </div>
+
+</body>
+</html> -->
+<html>
+  <head><style>
+    
+  </style>
+
+  </head>
+  <body>
+    <main id="viewport" data-scroll-container="true" data-scroll-section-id="section0" data-scroll-section-inview style="transform: none; opacity: 1; pointer-events: all; visibility: inherit; background: rgb(245, 245, 247);">
+      <div data-scroll="true" id="mycan" style="height: 100vh; position: absolute;" class="revealed">
+        <div data-scroll="true" data-scroll-sticky="true" data-scroll-target="#sti" class="revealed" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><div class="hue-can" style="position: relative; width: 100vw; height: 100vh; background: rgb(250, 249, 255); mix-blend-mode: hue; opacity: 1; z-index: 1; visibility: inherit;"></div><div style="margin-top: -100vh; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);"><canvas data-engine="three.js r140" width="485" height="610" style="display: block; width: 485px; height: 610px;"></canvas></div></div>
+        <div class="hue-can" style="position: relative; width: 100vw; height: 100vh; background: rgb(250, 249, 255); mix-blend-mode: hue; opacity: 1; z-index: 1; visibility: inherit;"></div>
+        <div style="margin-top: -100vh; translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px, 0px);"><canvas data-engine="three.js r140" width="485" height="610" style="display: block; width: 485px; height: 610px;"></canvas></div>
+        <canvas data-engine="three.js r140" width="485" height="610" style="display: block; width: 485px; height: 610px;"></canvas>
+      </div>  
+    </body>
+</html>

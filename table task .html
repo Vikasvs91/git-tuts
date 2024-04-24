@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <style>
+            table{
+                width: 100%;
+                height: 50vh;
+                font-size: 50px;
+               
+                
+            }
+            table,th,td{
+                border: 2px solid black;
+                border-collapse: collapse;
+                animation: test 1s infinite;
+            }
+            h1{
+                padding-left: 30%;
+                animation: test 1s infinite;
+            
+            }
+            table:hover{
+                border: 4px solid pink;
+                background-color:aliceblue;
+            }
+            th:hover{
+                color: red;
+                border: 3px solid yellow;
+            }
+            td:hover{
+                color: aqua;
+            }
+            @keyframes test {
+                0%{
+                    color: orangered;
+                    border: 3px solid yellow;
+                }
+                25%{
+                    color: blue;
+                    border: 3px solid red;
+                }
+                50%{
+                    color: red;
+                    border: 3px solid blue;
+                }
+                75%{
+                    color: yellow;
+                    border: 3px solid orangered;
+                }
+                100%{
+                    color: green;
+                    border: 3px solid black;
+                }
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>A test table with merged cells </h1>
+        <table  >
+            <tr>
+                <th rowspan="2"> </th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eye</th>
+            </tr>
+            <tr>
+                
+                <th>height</th>
+                <th >weight</th>
+            </tr>
+            <tr>
+                <th>Male</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Female</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </table><br>
+        <video style="width: 500px ; height: 400px;" controls >
+            <source src="Meet - jmp-kecm-viw - Personal - Microsoft​ Edge 2023-01-25 08-27-59.mp4" type="video/mp4">
+            <source src="Meet - jmp-kecm-viw - Personal - Microsoft​ Edge 2023-01-25 08-27-59.mp4" type="video/mp4">
+
+        </video>
+        
+    </body>
+</html>
